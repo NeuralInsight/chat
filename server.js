@@ -1,6 +1,7 @@
 const { ApolloServer } = require('apollo-server');
 
-const { sequelize } = require('./models')
+const { sequelize } = require('./models');
+const { User } = require('./models/user');
 // The GraphQL schema
 const typeDefs = require('./graphql/typeDefs')
 
@@ -12,6 +13,7 @@ const server = new ApolloServer({
     typeDefs,
     resolvers,
 });
+
 
 server.listen().then(({ url }) => {
     console.log(`🚀 Server ready at ${url}`);

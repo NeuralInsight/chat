@@ -1,10 +1,24 @@
 const { User } = require('../models');
 const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
 const { UserInputError, AuthenticationError } = require('apollo-server');
 
 module.exports = {
     Query: {
-        getUsers: async () => {
+        getUsers: async (_,__,context) => {
+            let user;
+            if(context.req && context.req.headers.authorization){
+                const token = context.req.headers.authorization.split('Bearer ')[1]
+                //TODO: set this secretOrPublickey to get from env
+                jwt.verify(token, 'secret', (err, decodedToken) => {
+                    if(err){
+                        throw new AuthenticationError('Unauthenticated')
+                    }
+                    user = decodedToken
+                    console.log(user)
+                })
+            }
+
             try {
                 const users = await User.findAll();
                 console.log(users)
@@ -43,8 +57,14 @@ module.exports = {
                     errors.password = 'password is incorrect'
                     throw new AuthenticationError('password is incorrect',{ errors })
                 }
+                //TODO: Change this secret with Complicated one and save it to .env
+                const token = jwt.sign({ username }, 'secret', { expiresIn: 60 * 60 });
 
-                return user;
+                return {
+                    ...user.toJSON(),
+                    createdAt: user.createdAt.toISOString(),
+                    token
+                }
 
             }catch (err){
                 console.log(err)
@@ -66,7 +86,7 @@ module.exports = {
 
                 if(password !== confirmPassword) errors.confirmPassword = 'password must match'
 
-                //TODO: check if username / email exists
+                // check if username / email exists
                 const userByUsername = await User.findOne({where: { username }});
                 const userByEmail = await User.findOne({where: { email }});
 

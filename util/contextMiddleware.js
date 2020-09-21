@@ -8,6 +8,7 @@ module.exports = context => {
             if (err) {
                 throw new AuthenticationError('Unauthenticated')
             }
+
             context.user = decodedToken
         })
     }

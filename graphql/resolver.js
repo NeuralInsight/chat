@@ -1,3 +1,4 @@
+const {Op} =  require("sequelize");
 const { Message,User } = require('../models');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
@@ -105,7 +106,8 @@ module.exports = {
         },
         sendMessage: async (parent, { to, content }, { user }) => {
             try{
-                if(!user) throw AuthenticationError('Unauthenticated')
+                console.log(user)
+                if(!user) throw new AuthenticationError('Unauthenticated')
 
                 const recipient = await User.findOne({ where: { username: to }})
 

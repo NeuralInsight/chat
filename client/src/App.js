@@ -1,9 +1,15 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+import { Container } from 'react-bootstrap';
+import Register from "./pages/Register";
 
 function App() {
+
+
   return (
-      <div>Hello React App</div>
+      <Container className="pt-5">
+        <Register />
+      </Container>
   );
 }
 

@@ -21,6 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0ec4293b-9eec-49e6-bca7-d27e7df0bbe2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +54,7 @@
     <property name="add_unversioned_files" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -64,7 +69,8 @@
       <workItem from="1600633684844" duration="27000" />
       <workItem from="1600633738795" duration="681000" />
       <workItem from="1600634591337" duration="2790000" />
-      <workItem from="1600683863483" duration="1948000" />
+      <workItem from="1600683863483" duration="4877000" />
+      <workItem from="1600691565688" duration="1006000" />
     </task>
     <servers />
   </component>
@@ -84,13 +90,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="642" y="287" width="626" height="539" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600691158317">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="642" y="287" width="626" height="539" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600691158317" />
     <state x="100" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1600623562245">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="100" y="127" width="1720" height="853" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600623562245" />
+    <state x="591" y="318" width="727" height="478" key="EditFileWatcherDialog" timestamp="1600688953984">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="591" y="318" width="727" height="478" key="EditFileWatcherDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600688953984" />
     <state x="742" y="310" width="426" height="493" key="FileChooserDialogImpl" timestamp="1600633055852">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="742" y="310" width="426" height="493" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1600633055852" />
+    <state x="252" y="168" width="1039" height="737" key="SettingsEditor" timestamp="1600691141947">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="252" y="168" width="1039" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1600691141947" />
   </component>
 </project>

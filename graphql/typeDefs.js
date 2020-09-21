@@ -13,6 +13,7 @@ module.exports = gql`
         content: String!
         from: String!
         to: String!
+        createdAt: String!
     }
     type Query {
         getUsers: [User]!

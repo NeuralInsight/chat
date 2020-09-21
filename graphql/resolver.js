@@ -9,7 +9,7 @@ module.exports = {
         // { user } is from context
         getUsers: async (_,__, { user }) => {
             try {
-                if(!user) throw AuthenticationError('Unauthenticated')
+                if(!user) throw new AuthenticationError('Unauthenticated')
                 const users = await User.findAll({
                     where: { username: { [Op.ne]: user.username } },
                 })
@@ -124,6 +124,8 @@ module.exports = {
                     to,
                     content,
                 })
+
+                return message
 
             }catch (err){
                 console.log(err)

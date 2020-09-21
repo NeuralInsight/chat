@@ -22,8 +22,8 @@
     <list default="true" id="0ec4293b-9eec-49e6-bca7-d27e7df0bbe2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graphql/resolver.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/resolver.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/contextMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/contextMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/typeDefs.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/typeDefs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Message.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <workItem from="1600634591337" duration="2790000" />
       <workItem from="1600683863483" duration="4877000" />
       <workItem from="1600691565688" duration="2549000" />
-      <workItem from="1600707192321" duration="6543000" />
+      <workItem from="1600707192321" duration="6753000" />
     </task>
     <servers />
   </component>

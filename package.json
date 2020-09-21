@@ -4,7 +4,7 @@
   "description": "Chat App with Nodejs React &amp; Graphql",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "nodemon server.js --ignore client/",
     "start": "node server.js"
   },
   "repository": {

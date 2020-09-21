@@ -56,7 +56,7 @@ module.exports = {
 
                 if(!correctPassword){
                     errors.password = 'password is incorrect'
-                    throw new AuthenticationError('password is incorrect',{ errors })
+                    throw new UserInputError('password is incorrect',{ errors })
                 }
                 //TODO: Change this secret with Complicated one and save it to .env
                 const token = jwt.sign({ username }, 'secret', { expiresIn: 60 * 60 });

@@ -21,12 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0ec4293b-9eec-49e6-bca7-d27e7df0bbe2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graphql/resolver.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/resolver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/typeDefs.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/typeDefs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
       <workItem from="1600634591337" duration="2790000" />
       <workItem from="1600683863483" duration="4877000" />
       <workItem from="1600691565688" duration="2549000" />
-      <workItem from="1600707192321" duration="3081000" />
+      <workItem from="1600707192321" duration="5643000" />
     </task>
     <servers />
   </component>
@@ -113,5 +111,13 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="252" y="168" width="1039" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1600691141947" />
+    <state width="498" height="447" key="SwitcherDM" timestamp="1600713181470">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="498" height="447" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1600713181470" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1600713095351">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1600713095351" />
   </component>
 </project>

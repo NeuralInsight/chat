@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ec4293b-9eec-49e6-bca7-d27e7df0bbe2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/ApolloProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ApolloProvide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/resolvers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/resolvers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/resolvers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/resolvers/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/typeDefs.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/typeDefs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <workItem from="1600707192321" duration="10320000" />
       <workItem from="1600725337747" duration="834000" />
       <workItem from="1600764637030" duration="6909000" />
-      <workItem from="1600792001355" duration="1983000" />
+      <workItem from="1600792001355" duration="4535000" />
     </task>
     <servers />
   </component>
@@ -98,6 +98,14 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="642" y="287" width="626" height="539" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600691158317" />
+    <state x="542" y="270" width="826" height="573" key="DBNavigator.DatasetFilterDialog" timestamp="1600795285918">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="542" y="270" width="826" height="573" key="DBNavigator.DatasetFilterDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600795285918" />
+    <state x="492" y="210" width="926" height="693" key="DBNavigator.ProjectSettingsDialog" timestamp="1600795216296">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="492" y="210" width="926" height="693" key="DBNavigator.ProjectSettingsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600795216296" />
     <state x="100" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1600623562245">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

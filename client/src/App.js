@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
-import ApolloProvide from "./ApolloProvide";
+import ApolloProvide from "./ApolloProvider";
 import { BrowserRouter, Switch } from 'react-router-dom';
 import { AuthProvider } from "./context/auth";
 import DynamicRoute from "./util/DynamicRoute";

@@ -1,32 +1,10 @@
-import React from "react";
-import {
-    ApolloClient,
-    InMemoryCache,
-    ApolloProvider as Provider,
-    createHttpLink,
-} from "@apollo/client";
-import { setContext } from "@apollo/client/link/context";
-import { Row, Button } from 'react-bootstrap';
+import React, { Fragment } from "react";
+import { Row, Button,Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { gql, useQuery } from "@apollo/client";
 
 import { useAuthDispatch } from "../context/auth";
 
-const httpLink = createHttpLink({
-    uri: 'http://localhost:4000',
-})
-
-const authLink = setContext((_, { headers }) => {
-    //get authentication token from localstorage if it exists
-    const token = localStorage.getItem('token')
-    //return the headers to the context so httplink can read them
-    return {
-        headers: {
-            ...headers,
-            authorization: token ? `Bearer ${token}` : '',
-        },
-    }
-})
 
 const GET_USERS = gql`
     query getusers{
@@ -53,7 +31,21 @@ export default function Login({ history }){
         console.log(error)
     }
 
+    let usersMarkup
+    if (!data || loading){
+        usersMarkup = <p>Loading...</p>
+    } else if (data.getUsers.length === 0) {
+        usersMarkup = <p>No user have joined yet</p>
+    } else if (data.getUsers.length > 0) {
+        usersMarkup = data.getUsers.map((user) => (
+            <div key={user.username}>
+                <p>{user.username}</p>
+            </div>
+        ))
+    }
+
     return(
+        <Fragment>
         <Row className="bg-white justify-content-around">
             <Link to="/login">
                 <Button variant="link">Login</Button>
@@ -63,5 +55,14 @@ export default function Login({ history }){
             </Link>
             <Button variant="link" onClick={logout} >Logout</Button>
         </Row>
+        <Row className="bg-white">
+            <Col xs={4}>
+                {usersMarkup }
+            </Col>
+            <Col xs={8}>
+                <p>Messages</p>
+            </Col>
+        </Row>
+        </Fragment>
     )
 }

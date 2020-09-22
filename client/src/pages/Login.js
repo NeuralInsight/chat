@@ -13,8 +13,7 @@ const LOGIN_USER = gql`
             username: $username 
             password: $password 
         ) {
-            username 
-            email 
+            username
             createdAt
             token
         }
@@ -65,7 +64,7 @@ export default function Login(props){
                             onChange={e => setVariables({ ...variables, username: e.target.value })} />
                     </Form.Group>
                     <Form.Group>
-                        <Form.Label className={errors.password && 'text-danger'}>
+                        <Form.Label className={errors.username && 'text-danger'}>
                             {errors.password ?? 'Password'}
                         </Form.Label>
                         <Form.Control

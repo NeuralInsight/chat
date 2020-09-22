@@ -10,7 +10,7 @@ module.exports = {
         getUsers: async (_,__, { user }) => {
             try {
                 if(!user) throw new AuthenticationError('Unauthenticated')
-                const users = await User.findAll({
+                let users = await User.findAll({
                     attributes: ['username', 'imageUrl', 'createdAt',],
                     where: { username: { [Op.ne]: user.username } },
                 })

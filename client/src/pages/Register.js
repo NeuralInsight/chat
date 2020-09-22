@@ -30,8 +30,9 @@ export default function Register(props){
 
         registerUser({ variables })
     }
+    //TODO: username error not show
+    //TODO: check the simple error on front
     return(
-
             <Row className="bg-white py-5 justify-content-center">
                 <Col sm={8} md={6} lg={4}>
                     <h1 className="text-center">Register</h1>
@@ -47,6 +48,7 @@ export default function Register(props){
                                 onChange={e => setVariables({ ...variables, email: e.target.value })}/>
                         </Form.Group>
                         <Form.Group>
+
                             <Form.Label className={errors.username && 'text-danger'}>
                                 {errors.username ?? 'username'}
                             </Form.Label>

@@ -18,7 +18,7 @@ const GET_MESSAGES = gql`
 
 export default function Messages(){
     const { users } = useMessageState()
-    const selectedUser = users.find( u => u.selected === true)
+    const selectedUser = users?.find( u => u.selected === true)?.username
 
     const [getMessages,
         { loading: messagesLoading, data: messagesData },

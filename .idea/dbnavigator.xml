@@ -25,7 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="bc4455f7-0654-400d-a969-045a334a2df7">
-        <schema name="chat" object-types="constraint, index, column, dataset trigger, table" />
+        <schema name="chat" object-types="table, dataset trigger, column, index, constraint" />
       </connection>
     </loaded-nodes>
   </component>

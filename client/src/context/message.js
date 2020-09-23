@@ -31,7 +31,7 @@ const messageReducer = (state, action) => {
 
 
 export const MessageProvider = ({ children }) => {
-    const [state,dispatch] = useReducer(messageReducer, { users: null })
+    const [state,dispatch] = useReducer(messageReducer, { users : null })
     return(
         <MessageDispatchContext.Provider value={dispatch}>
             <MessageStateContext.Provider value={state}>

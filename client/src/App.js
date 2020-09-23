@@ -3,10 +3,11 @@ import './App.scss';
 import { Container } from 'react-bootstrap';
 import Register from "./pages/Register";
 import Login from "./pages/Login";
-import Home from "./pages/Home";
+import Home from "./pages/home/Home";
 import ApolloProvide from "./ApolloProvider";
 import { BrowserRouter, Switch } from 'react-router-dom';
 import { AuthProvider } from "./context/auth";
+import { MessageProvider } from "./context/message";
 import DynamicRoute from "./util/DynamicRoute";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
   return (
       <ApolloProvide>
           <AuthProvider>
+              <MessageProvider>
           <BrowserRouter>
             <Container className="pt-5">
                 <Switch>
@@ -24,6 +26,7 @@ function App() {
                 </Switch>
             </Container>
           </BrowserRouter>
+              </MessageProvider>
           </AuthProvider>
       </ApolloProvide>
   );

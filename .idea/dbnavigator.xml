@@ -25,7 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="bc4455f7-0654-400d-a969-045a334a2df7">
-        <schema name="chat" object-types="view, column, constraint, index, table, procedure, function, dataset trigger" />
+        <schema name="chat" object-types="constraint, index, column, dataset trigger, table" />
       </connection>
     </loaded-nodes>
   </component>
@@ -48,7 +48,7 @@
         <condition column="id" operator="=" value="" active="true" />
       </filter>
     </filter-actions>
-    <filter-actions connection-id="bc4455f7-0654-400d-a969-045a334a2df7" dataset="chat.Users" active-filter-id="">
+    <filter-actions connection-id="bc4455f7-0654-400d-a969-045a334a2df7" dataset="chat.Users" active-filter-id="EMPTY_FILTER">
       <filter id="deb1fc57-e586-43f3-ad47-000378bc7633" name="Filter" temporary="false" custom-name="false" type="basic" join-type="AND">
         <condition column="id" operator="=" value="" active="true" />
       </filter>

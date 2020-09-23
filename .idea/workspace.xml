@@ -22,11 +22,11 @@
     <list default="true" id="0ec4293b-9eec-49e6-bca7-d27e7df0bbe2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ApolloProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ApolloProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql/resolvers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/resolvers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql/resolvers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/resolvers/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/home/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/pages/Home" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +81,12 @@
       <workItem from="1600707192321" duration="10320000" />
       <workItem from="1600725337747" duration="834000" />
       <workItem from="1600764637030" duration="6909000" />
-      <workItem from="1600792001355" duration="8119000" />
+      <workItem from="1600792001355" duration="9299000" />
+      <workItem from="1600805836001" duration="826000" />
+      <workItem from="1600857059352" duration="1961000" />
+      <workItem from="1600882575528" duration="23000" />
+      <workItem from="1600885680041" duration="4024000" />
+      <workItem from="1600893632464" duration="1538000" />
     </task>
     <servers />
   </component>
@@ -116,10 +126,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="591" y="318" width="727" height="478" key="EditFileWatcherDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600688953984" />
-    <state x="742" y="310" width="426" height="493" key="FileChooserDialogImpl" timestamp="1600633055852">
+    <state x="742" y="310" width="426" height="493" key="FileChooserDialogImpl" timestamp="1600882596407">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="742" y="310" width="426" height="493" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1600633055852" />
+    <state x="742" y="310" width="426" height="493" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1600882596407" />
     <state x="252" y="168" width="1039" height="737" key="SettingsEditor" timestamp="1600691141947">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

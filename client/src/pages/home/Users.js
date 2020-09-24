@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { gql, useQuery } from "@apollo/client";
 import {Col, Image} from "react-bootstrap";
 import { useMessageDispatch, useMessageState } from '../../context/message';

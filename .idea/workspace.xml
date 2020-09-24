@@ -33,6 +33,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -86,6 +87,8 @@
       <workItem from="1600885680041" duration="4024000" />
       <workItem from="1600893632464" duration="1627000" />
       <workItem from="1600895500387" duration="537000" />
+      <workItem from="1600973908640" duration="113000" />
+      <workItem from="1600976931921" duration="2660000" />
     </task>
     <servers />
   </component>
@@ -125,10 +128,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="591" y="318" width="727" height="478" key="EditFileWatcherDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600688953984" />
-    <state x="742" y="310" width="426" height="493" key="FileChooserDialogImpl" timestamp="1600882596407">
+    <state x="742" y="310" width="426" height="493" key="FileChooserDialogImpl" timestamp="1600974020385">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="742" y="310" width="426" height="493" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1600882596407" />
+    <state x="742" y="310" width="426" height="493" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1600974020385" />
     <state x="252" y="168" width="1039" height="737" key="SettingsEditor" timestamp="1600691141947">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

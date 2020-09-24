@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ec4293b-9eec-49e6-bca7-d27e7df0bbe2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/context/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/message.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/home/Messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/home/Messages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/home/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/home/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ApolloProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ApolloProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/home/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
       <workItem from="1600893632464" duration="1627000" />
       <workItem from="1600895500387" duration="537000" />
       <workItem from="1600973908640" duration="113000" />
-      <workItem from="1600976931921" duration="2660000" />
+      <workItem from="1600976931921" duration="2965000" />
     </task>
     <servers />
   </component>

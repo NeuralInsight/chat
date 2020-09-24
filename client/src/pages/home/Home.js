@@ -15,7 +15,10 @@ export default function Login({ history }){
 
     const logout = () => {
         dispatch({ type: 'LOGOUT' })
-        history.push('/login')
+        //history.push('/login') ===> this become a bug for logout user and login with new account
+        //instead of using above method using the below method
+        //with below method the page refresh and problem fixed
+        window.location.href = '/login'
     }
 
 

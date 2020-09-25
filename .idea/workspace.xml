@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ec4293b-9eec-49e6-bca7-d27e7df0bbe2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ApolloProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ApolloProvider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home/Messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/home/Messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/home/Users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +90,21 @@
       <workItem from="1600893632464" duration="1627000" />
       <workItem from="1600895500387" duration="537000" />
       <workItem from="1600973908640" duration="113000" />
-      <workItem from="1600976931921" duration="2965000" />
+      <workItem from="1600976931921" duration="4036000" />
+      <workItem from="1600983500464" duration="111000" />
+      <workItem from="1600983628081" duration="75000" />
+      <workItem from="1600984038206" duration="228000" />
+      <workItem from="1600984793126" duration="5000" />
+      <workItem from="1600984812687" duration="84000" />
+      <workItem from="1600985220006" duration="107000" />
+      <workItem from="1600985760584" duration="117000" />
+      <workItem from="1600996065447" duration="113000" />
+      <workItem from="1600996202139" duration="242000" />
+      <workItem from="1600997239778" duration="15000" />
+      <workItem from="1601031134255" duration="104000" />
+      <workItem from="1601031253898" duration="60000" />
+      <workItem from="1601031544124" duration="36000" />
+      <workItem from="1601031598626" duration="4163000" />
     </task>
     <servers />
   </component>
@@ -149,6 +167,12 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/client/src/util/DynamicRoute.js</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/pages/home/Users.js</url>
+          <line>54</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

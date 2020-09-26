@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ec4293b-9eec-49e6-bca7-d27e7df0bbe2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/home/Messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/home/Messages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/home/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/home/Users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +49,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Telegram-bot" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -104,7 +98,7 @@
       <workItem from="1601031134255" duration="104000" />
       <workItem from="1601031253898" duration="60000" />
       <workItem from="1601031544124" duration="36000" />
-      <workItem from="1601031598626" duration="4163000" />
+      <workItem from="1601031598626" duration="5210000" />
     </task>
     <servers />
   </component>
@@ -144,10 +138,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="591" y="318" width="727" height="478" key="EditFileWatcherDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600688953984" />
-    <state x="742" y="310" width="426" height="493" key="FileChooserDialogImpl" timestamp="1600974020385">
+    <state x="742" y="310" width="426" height="493" key="FileChooserDialogImpl" timestamp="1601042730447">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="742" y="310" width="426" height="493" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1600974020385" />
+    <state x="742" y="310" width="426" height="493" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1601042730447" />
     <state x="252" y="168" width="1039" height="737" key="SettingsEditor" timestamp="1600691141947">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

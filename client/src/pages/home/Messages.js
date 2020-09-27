@@ -92,7 +92,7 @@ export default function Messages(){
      }
 
     return (
-        <Col xs={9}>
+        <Col xs={8}>
             < div className = "messages-box d-flex flex-column-reverse" >
                 {selectedChatMarkup}
             </div>

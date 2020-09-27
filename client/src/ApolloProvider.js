@@ -27,7 +27,6 @@ const authLink = setContext((_, { headers }) => {
 
 const client = new ApolloClient({
     link: authLink.concat(httpLink),
-    //TODO: set option for caching to not cache the getUsers
     cache: new InMemoryCache(),
 });
 

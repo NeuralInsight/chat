@@ -38,7 +38,7 @@ export default function Login(props){
         onCompleted(data){
 
             dispatch({ type: 'LOGIN', payload: data.login })
-            props.history.push('/')
+            window.location.href = '/'
         }
     })
 

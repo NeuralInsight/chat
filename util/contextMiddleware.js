@@ -1,16 +1,25 @@
 const jwt = require('jsonwebtoken');
+const { PubSub } = require('apollo-server');
+
+const pubsub = new PubSub();
 
 module.exports = context => {
+    let token
     if(context.req && context.req.headers.authorization) {
-        const token = context.req.headers.authorization.split('Bearer ')[1]
-        //TODO: set this secretOrPublickey to get from env
+        token = context.req.headers.authorization.split('Bearer ')[1]
+    } else if (context.connection && context.connection.context.Authorization) {
+        token = context.connection.context.Authorization.split('Bearer ')[1]
+    }
+    
+    if (token) {
         jwt.verify(token, 'secret', (err, decodedToken) => {
-            if (err) {
-                throw new AuthenticationError('Unauthenticated')
-            }
-
             context.user = decodedToken
         })
     }
+     //TODO: set this secretOrPublickey to get from env    
+    
+    
+    context.pubsub = pubsub
+
     return context
 }
